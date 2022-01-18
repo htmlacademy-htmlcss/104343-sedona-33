@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Oleg Kaliuzhnyi](https://up.htmlacademy.ru/htmlcss/33/user/104343).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Вараксина](https://htmlacademy.ru/profile/id153610).
 
 ---
 
