@@ -42,7 +42,7 @@
       </nav>
     </header>
     <main class="main-catalog">
-      <section class="hotel-search">
+      <section class="hotel-search-control">
         <h1>Гостиницы Седоны</h1>
         <nav class="navigation bread-crumbs">
           <ul class="navigation-list">
@@ -86,12 +86,28 @@
               <input type="text" name="price-top">
               <input type="range" name="price-range">
             </fieldset>
-            <section class="conrol-buttons">
+            <div class="conrol-buttons">
               <button class="button button-submit" type="submit">Применить</button>
               <button class="button button-reset" type="reset">Сбросить</button>
-            </section>
+            </div>
           </form>
         </nav>
+      </section>
+      <section class="display-control-panel">
+        <h2 class="visually-hidden">Настройки отображения результатов поиска</h2>
+        <p>Найдено гостиниц: <span>38</span></p>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <select name="filter">
+            <option value="low-cost">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Сначала популярные</option>
+          </select>
+        </form>
+        <div class="display-mode">
+          <img class="display-mode tile" src="" alt="Кнопка Плитка">
+          <img class="display-mode slideshow" src="" alt="Кнопка Слайдшоу">
+          <img class="display-mode list" src="" alt="Кнопка Список">
+        </div>
       </section>
     </main>
   </body>
