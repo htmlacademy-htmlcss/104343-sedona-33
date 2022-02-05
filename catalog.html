@@ -97,17 +97,23 @@
         <h2 class="visually-hidden">Настройки отображения результатов поиска</h2>
         <p>Найдено гостиниц: <span>38</span></p>
         <form action="https://echo.htmlacademy.ru/" method="post">
-          <select name="filter">
+          <select name="search-filter">
             <option value="low-cost">Сначала дешёвые</option>
             <option value="expensive">Сначала дорогие</option>
             <option value="popular">Сначала популярные</option>
           </select>
         </form>
-        <div class="display-mode">
-          <img class="display-mode tile" src="" alt="Кнопка Плитка">
-          <img class="display-mode slideshow" src="" alt="Кнопка Слайдшоу">
-          <img class="display-mode list" src="" alt="Кнопка Список">
-        </div>
+        <ul class="display-mode-list">
+          <li class="mode-list-item">
+            <a class="button button-tile button-active"><span class="visually-hidden">Показать плитку</span></a>
+          </li>
+          <li class="mode-list-item">
+            <a class="button button-slideshow"><span class="visually-hidden">Показать слайдшоу</span></a>
+          </li>
+          <li class="mode-list-item">
+            <a class="button button-list"><span class="visually-hidden">Показать список</span></a>
+          </li>
+        </ul>
       </section>
     </main>
   </body>
